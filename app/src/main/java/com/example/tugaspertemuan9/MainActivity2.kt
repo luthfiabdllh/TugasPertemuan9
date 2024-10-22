@@ -15,7 +15,6 @@ import com.example.tugaspertemuan9.databinding.ActivityMain3Binding
 
 class MainActivity2 : AppCompatActivity() {
     private lateinit var binding: ActivityMain2Binding
-    private lateinit var sharedViewModel: SharedViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMain2Binding.inflate(layoutInflater)
